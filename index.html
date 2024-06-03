@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="heading">
+      <h1>Тест: Столицы стран Африки</h1>
+    </div>
+    <form>
+      <div class="question">
+        <p>Вопрос 1: Столица Алжира?</p>
+        <label><input type="radio" name="choice1" />Яунде</label>
+        <label><input type="radio" name="choice1" />Каир</label>
+        <label id="answerLbl"
+          ><input type="radio" name="choice1" class="answer" />Алжир</label
+        >
+        <label><input type="radio" name="choice1" />Конакри</label>
+      </div>
+
+      <div class="question">
+        <p>Вопрос 2: Столица Египта?</p>
+        <label><input type="radio" name="choice2" />Луанда</label>
+        <label><input type="radio" name="choice2" />Алжир</label>
+        <label><input type="radio" name="choice2" />Хараре</label>
+        <label id="answerLbl"
+          ><input type="radio" name="choice2" class="answer" />Каир</label
+        >
+      </div>
+
+      <div class="question">
+        <p>Вопрос 3: Столица Камеруна?</p>
+        <label id="answerLbl"
+          ><input type="radio" name="choice3" class="answer" />Яунде</label
+        >
+        <label><input type="radio" name="choice3" />Рабат</label>
+        <label><input type="radio" name="choice3" />Виндхук</label>
+        <label><input type="radio" name="choice3" />Конакри</label>
+      </div>
+
+      <div class="question">
+        <p>Вопрос 4: Столица Анголы?</p>
+        <label><input type="radio" name="choice4" />Найроби</label>
+        <label><input type="radio" name="choice4" />Хараре</label>
+        <label><input type="radio" name="choice4" />Каир</label>
+        <label id="answerLbl"
+          ><input type="radio" name="choice4" class="answer" />Луанда</label
+        >
+      </div>
+
+      <div class="question">
+        <p>Вопрос 5: Столица Зимбабве?</p>
+        <label><input type="radio" name="choice5" />Яунде</label>
+        <label><input type="radio" name="choice5" />Каир</label>
+        <label id="answerLbl"
+          ><input type="radio" name="choice5" class="answer" />Хараре</label
+        >
+        <label><input type="radio" name="choice5" />Триполи</label>
+      </div>
+
+      <div class="question">
+        <p>Вопрос 6: Столица Кении?</p>
+        <label><input type="radio" name="choice6" />Яунде</label>
+        <label><input type="radio" name="choice6" />Каир</label>
+        <label id="answerLbl"
+          ><input type="radio" name="choice6" class="answer" />Найроби</label
+        >
+        <label><input type="radio" name="choice6" />Конакри</label>
+      </div>
+
+      <div class="question">
+        <p>Вопрос 7: Столица Марокко?</p>
+        <label><input type="radio" name="choice7" />Луанда</label>
+        <label><input type="radio" name="choice7" />Виндхук</label>
+        <label><input type="radio" name="choice7" />Хараре</label>
+        <label id="answerLbl"
+          ><input type="radio" name="choice7" class="answer" />Рабат</label
+        >
+      </div>
+
+      <div class="question">
+        <p>Вопрос 8: Столица Намибии?</p>
+        <label id="answerLbl"
+          ><input type="radio" name="choice8" class="answer" />Виндхук</label
+        >
+        <label><input type="radio" name="choice8" />Найроби</label>
+        <label><input type="radio" name="choice8" />Хараре</label>
+        <label><input type="radio" name="choice8" />Рабат</label>
+      </div>
+
+      <div class="question">
+        <p>Вопрос 9: Столица Ливии?</p>
+        <label><input type="radio" name="choice9" />Дакар</label>
+        <label id="answerLbl"
+          ><input type="radio" name="choice9" class="answer" />Триполи</label
+        >
+        <label><input type="radio" name="choice9" />Рабат</label>
+        <label><input type="radio" name="choice9" />Виндхук</label>
+      </div>
+
+      <div class="question">
+        <p>Вопрос 10: Столица Сенегала?</p>
+        <label><input type="radio" name="choice10" />Яунде</label>
+        <label><input type="radio" name="choice10" />Рабат</label>
+        <label id="answerLbl"
+          ><input type="radio" name="choice10" class="answer" />Дакар</label
+        >
+        <label><input type="radio" name="choice10" />Найроби</label>
+      </div>
+    </form>
+
+    <div class="calculate">
+      <button id="btn">Отправить ответы</button>
+      <p class="resultTxt invisible">Ваши баллы:</p>
+      <p class="result invisible"></p>
+      <button id="btnRepeat" class="invisible">Пройти тест снова</button>
+      <button id="btnAnswer" class="invisible">
+        Посмотреть правильные ответы
+      </button>
+      <button id="btnBack" class="invisible">Вернуться назад</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+body {
+    background-image: url(image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+}
+
+input {
+    text-align: center;
+}
+
+.question {
+    margin: 30px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+#btn {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btnRepeat {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px; 
+    background-color: rgb(245, 104, 121);
+}
+
+#btnAnswer {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px; 
+    background-color: rgb(43, 178, 113);
+}
+
+#btnBack {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px; 
+    background-color: rgb(172, 214, 194);
+}
+
+.calculate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultTxt {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.result {
+    margin: 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 40px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+.invisible {
+    display: none;
+}
+
+.answerShow {
+    background-color:rgb(60, 178, 97);
+}
